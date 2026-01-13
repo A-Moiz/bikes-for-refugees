@@ -76,6 +76,9 @@ p {
   text-decoration: none;
 }
 
+.navigation__link:hover {
+  color: var(--orange-dark);
+}
 
 /* Text styles */
 
@@ -101,6 +104,21 @@ button {
   border-radius: 5px;
   padding: 0.5rem 1rem;
   font-weight: 500;
+}
+
+.volunteer-btn {
+  background-color: white; 
+  color: var(--orange-dark);
+}
+
+.volunteer-btn:hover {
+  background-color: var(--orange-dark);
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: var(--orange-dark);
 }
 
 /* Content */
